@@ -1,0 +1,81 @@
+body {
+    background-color: #FFDBE5;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+h1 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.objetivo {
+    background-color: #EA9AB2;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-left: 4px solid #333;
+}
+  
+.area-entrada {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+#inputTarefa {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.btnListaTarefas {
+    padding: 10px 20px;
+    background-color: #337357;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btnListaTarefas:hover {
+    background-color: #6D9F71;
+}
+
+#listaTarefas {
+    list-style: none;
+    padding: 0;
+}
+
+.item-tarefa {
+    background-color: #bad9bd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+      
+.divLixeira {
+    display: flex;
+    gap: 5px;
+}
+   
+.divTarefas{
+    background-color: #f4f0f5;
+    border: 1px solid #b8d4db;
+    padding: 15px 15px;
+}
+.divBtn{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btnLixeira{
+    width: 20px;
+    cursor: pointer;
+}    

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas da May!</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Lista de Tarefas da Mayara </h1>
+    
+    <div class="objetivo">
+        <strong>Objetivo:</strong> Facilitar a sua organização, aproveite!
+    </div>
+    
+    <div class="area-entrada">
+        <input type="text" id="inputTarefa" placeholder="Digite uma nova tarefa...">
+        <button class="btnListaTarefas" cid="botaoAdicionar" onclick="adicionarLista()">Adicionar</button>
+    </div>
+    
+    <div class="divTarefas">
+        <strong>Lista de Tarefas:</strong>
+        <ul id="listaTarefas">
+        </ul> 
+        <div class="divBtn">
+             <button class="btnListaTarefas" onclick="limparLista()">Limpar Lista</button>
+            <button class="btnListaTarefas" onclick="ordenarLista()">Ordenar Lista</button>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
